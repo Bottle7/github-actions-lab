@@ -11,7 +11,7 @@ on:
     outputs:
       current-time: 
         description: "The time in which the workflow is called"
-        value: ${{ jobs.resusable-job.outputs.current-time }}
+        value: ${{ jobs.reusable-job.outputs.current-time }}
         
 jobs:
   reusable-job:
