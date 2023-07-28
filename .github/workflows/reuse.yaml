@@ -14,4 +14,4 @@ jobs:
     needs: call-workflow
     steps:
       - run: |
-          echo "The previous job was called at ${{ needs.call-workflow.outputs.current-time }}
+          echo "The previous job was called at ${{ needs.call-workflow.outputs.current-time }}"
